@@ -12,7 +12,7 @@ module OmniAuth::OpenIDConnect
         :redirect_uri => ENV["RAILS_OMNIAUTH_REDIRECT_URI"],
         :authorization_endpoint => ENV['RAILS_OMNIAUTH_AUTHORIZATION_ENDPOINT'],
         :token_endpoint => ENV['RAILS_OMNIAUTH_TOKEN_ENDPOINT'],
-        :userinfo_endpoint => ENV['RAILS_OMNIAUTH_USERINFO_ENDPOINT'] 
+        :userinfo_endpoint => ENV['RAILS_OMNIAUTH_USERINFO_ENDPOINT'], 
         :display_name => ENV["RAILS_OMNIAUTH_DISPLAY_NAME"],
         :sso => ENV['RAILS_OMNIAUTH_SSO'],
         :issuer => ENV['RAILS_OMNIAUTH_ISSUER'], 
